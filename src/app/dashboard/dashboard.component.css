@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40; /* Dark background */
+  border: none; /* No border */
+}
+
+.navbar-collapse {
+  display: flex; /* Use flexbox */
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.navbar-nav {
+  display: flex; /* Flex container for nav items */
+  gap: 20px; /* Space between items */
+}
+
+.navbar-nav > li {
+  list-style: none; /* Remove default list styling */
+}
+
+.navbar-nav > li > a {
+  color: #ffffff; /* Link color */
+  padding: 15px 20px; /* Padding around links */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #495057; /* Darker background on hover */
+}
+
+/* Header Styles */
+header {
+  background-color: #ffffff; /* White background */
+  padding: 100px 0; /* Top and bottom padding */
+}
+
+.intro-text {
+  text-align: center; /* Center the text */
+}
+
+.intro-heading {
+  font-size: 36px; /* Font size for heading */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column; /* Stack items on small screens */
+      text-align: center; /* Center-align text */
+  }
+}

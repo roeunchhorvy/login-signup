@@ -1,0 +1,14 @@
+.error {
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .info {
+    font-size: 50px;
+    color: rgb(201, 250, 2);
+    text-align: center;
+  }
+  
